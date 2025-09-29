@@ -1,0 +1,3 @@
+Resumo primeiro trecho do livro Software Engineering at Google, Oreilly.
+
+Engenharia de software está ligada com o ato de programar, entretanto temos algo que a diferencia da programação. Assim como outras engenharias ela envolve planejamento estratégico, então a programação anda junto com métodos de planejamentos.

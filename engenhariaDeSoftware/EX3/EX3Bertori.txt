@@ -1,0 +1,3 @@
+3 exemplos de tradeoffs
+
+Trade off (conceito): O que são Trade-Offs no Aprendizado de Máquina? Um trade-off descreve uma situação na qual você sacrifica uma coisa para alcançar outra. No universo do Aprendizado de Máquina, isso representa a necessidade de encontrar um equilíbrio entre duas características que não podem ser maximizadas simultaneamente. Exemplos: Tempo de Desenvolvimento vs Qualidade do Código; Segurança vs Usabilidade; Desenvolvimento Próprio vs Uso de Bibliotecas de Terceiros
