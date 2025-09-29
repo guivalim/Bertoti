@@ -1,3 +1,6 @@
 Resumo segundo trecho do livro Software Engineering at Google, Oreilly.
 
-Os processos se juntam com o ato de escrever códigos quando a engenharia visa o "futuro", planejando fatos que estarão por vir, como a aplicação se comportará diante de diferentes situações, podemos citar sobre a escalabilidade de um software. Um certo programa funciona com x quantidade de usuários, mas com x ao cubo de usuários, ele funciona com a mesma qualidade ou ao menos funciona? A engenharia de Software visa planejar o andamento dos códigos ao longo de sua vida.
+Os processos se juntam com o ato de escrever códigos quando a engenharia visa o "futuro", planejando fatos que estarão por vir, 
+como a aplicação se comportará diante de diferentes situações, podemos citar sobre a escalabilidade de um software.
+Um certo programa funciona com x quantidade de usuários, mas com x ao cubo de usuários, ele funciona com a mesma qualidade ou 
+ao menos funciona? A engenharia de Software visa planejar o andamento dos códigos ao longo de sua vida.
