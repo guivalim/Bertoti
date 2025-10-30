@@ -1,6 +1,12 @@
 Resumo segundo trecho do livro Software Engineering at Google, Oreilly.
 
-Os processos se juntam com o ato de escrever códigos quando a engenharia visa o "futuro", planejando fatos que estarão por vir, 
-como a aplicação se comportará diante de diferentes situações, podemos citar sobre a escalabilidade de um software.
-Um certo programa funciona com x quantidade de usuários, mas com x ao cubo de usuários, ele funciona com a mesma qualidade ou 
-ao menos funciona? A engenharia de Software visa planejar o andamento dos códigos ao longo de sua vida.
+A engenharia de software não se resume a escrever códigos, mas sim a planejar como eles irão
+se comportar e evoluir ao longo do tempo. Ela visa o “futuro” do software, considerando 
+fatores como escalabilidade, manutenção e adaptação às mudanças inevitáveis. Por exemplo, um
+programa pode funcionar bem com uma certa quantidade de usuários, mas será que mantém o mesmo 
+desempenho quando essa quantidade cresce de forma exponencial? É esse tipo de questão que a 
+engenharia de software busca prever e resolver, criando sistemas que continuem eficientes mesmo
+diante do crescimento e da mudança. O livro reforça essa ideia ao tratar a engenharia de software
+como uma “programação integrada ao longo do tempo” — uma prática que une código, processos e
+planejamento para garantir que o software se mantenha útil, estável e sustentável durante todo o
+seu ciclo de vida.
