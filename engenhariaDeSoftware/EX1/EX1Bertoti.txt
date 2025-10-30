@@ -1,4 +1,7 @@
 Resumo primeiro trecho do livro Software Engineering at Google, Oreilly.
 
-Engenharia de software está ligada com o ato de programar, entretanto temos algo que a diferencia da programação.
-Assim como outras engenharias ela envolve planejamento estratégico, então a programação anda junto com métodos de planejamentos.
+A engenharia de software está relacionada à programação, mas vai muito além de apenas escrever código. Assim como outras áreas da engenharia, ela exige planejamento estratégico, aplicação de métodos e uso de princípios teóricos para criar sistemas reais e funcionais.
+
+Enquanto programar é focar no ato de codificar, a engenharia de software busca desenvolver soluções completas, confiáveis e sustentáveis ao longo do tempo. Diferente das engenharias tradicionais, que possuem normas rígidas, a engenharia de software ainda está em processo de amadurecimento — o que torna essencial o uso de práticas mais organizadas e seguras.
+
+O livro do Google apresenta justamente essa visão moderna: como estruturar o trabalho em equipe, adotar boas práticas e transformar a programação em uma verdadeira engenharia, capaz de lidar com a complexidade crescente dos softwares atuais.
