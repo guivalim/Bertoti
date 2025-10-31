@@ -1,4 +1,4 @@
-package biblioteca;
+package org.example;
 
 public class Usuario {
 
