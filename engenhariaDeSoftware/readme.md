@@ -62,22 +62,22 @@ planejamento para garantir que o software se mantenha útil, estável e sustent�
 <details>
 <summary><strong> ✅ Atividade 3</strong></summary> <br>
 
-## 🎯 Tradeoffs
+## Tradeoffs
 
 Trade off (conceito): O que são Trade-Offs no Aprendizado de Máquina?<br>
 
 Um trade-off descreve uma situação na qual você sacrifica uma coisa para alcançar outra. No universo do Aprendizado de Máquina, 
 isso representa a necessidade de encontrar um equilíbrio entre duas características que não podem ser maximizadas simultaneamente.
 
-### 🔴 Tempo de Desenvolvimento vs Qualidade do Código:
+### Tempo de Desenvolvimento vs Qualidade do Código:
 
 - **Exemplo:** Em uma situação que devemos escolher pender mais a um lado, para qual lado dar mais atenção? Claro que é algo que depende de situação para situação, de projeto para projeto, mas o que seria mais viavel, usar mais tempo, ser mais demorado e garantir códigos sólidos, seguros e bem estruturados, ou em um tempo menor, entregar algo que talvez possa a desejar em alguma hora.
 
-### 🔴 Segurança vs. Usabilidade:
+### Segurança vs. Usabilidade:
 
 - **Exemplo:** Em uma aplicação, focar mais na experiência do usuário, com um programa sem muitas verificações de segurança, sem muitas restrições, para que o usuario não perca muito tempo com logins e verificações por exemplo, ou que eletalvez precise disse, mas garantindo maior segurança de dados.
 
-### 🔴 Desenvolvimento Próprio vs Uso de Bibliotecas de Terceiros:
+### Desenvolvimento Próprio vs Uso de Bibliotecas de Terceiros:
 
 - **Exemplo:** Fazer certas partes de um projeto do zero, sem utilzar recursos de terceiros, o que talvez garanta mais qualidade de codigo, ou usar biblioteca de terceiros, o que economizar´tempo, mas 
 usará recursos feito por mãos de outras pessoas.
