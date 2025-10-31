@@ -1,7 +1,7 @@
 <details>
-<summary><strong> 📖 Trecho do Livro Software Engineering at Google, Oreilly </strong></summary>
+<summary><strong> Trecho do Livro Software Engineering at Google, Oreilly </strong></summary>
   
-### 📔 Primeiro Trecho
+### Primeiro Trecho
 
   What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?
  
@@ -12,7 +12,7 @@ The terms “programming” and “software engineering” have been used interc
 Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
 
 
-### 📔 Segundo Trecho
+### Segundo Trecho
 
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
@@ -33,7 +33,7 @@ How an organization makes decisions, based on the lessons of Time and Change and
 </details>
 
 <details>
-<summary><strong> ✅ Atividade 1</strong></summary>
+<summary><strong> -Atividade 1</strong></summary>
 
 ### 📄 Resumo primeiro trecho do livro Software Engineering at Google, Oreilly.
 
@@ -46,7 +46,7 @@ em equipe, adotar boas práticas e transformar a programação em uma verdadeira
 </details>
 
 <details>
-<summary><strong> ✅ Atividade 2</strong></summary>
+<summary><strong> -Atividade 2</strong></summary>
 
 ### 📄 Resumo segundo trecho do livro Software Engineering at Google, Oreilly.
 
@@ -60,7 +60,7 @@ planejamento para garantir que o software se mantenha útil, estável e sustent�
 </details>
 
 <details>
-<summary><strong> ✅ Atividade 3</strong></summary> <br>
+<summary><strong> -Atividade 3</strong></summary> <br>
 
 ## Tradeoffs
 
