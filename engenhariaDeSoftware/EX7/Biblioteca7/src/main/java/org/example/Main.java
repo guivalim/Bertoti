@@ -35,7 +35,7 @@ public class Main {
 
                     Livro novoLivro = new Livro(titulo, autor, isbn);
                     biblioteca.addLivro(novoLivro);
-                    System.out.println("✅ Livro adicionado com sucesso!");
+                    System.out.println("Livro adicionado com sucesso!");
                     break;
 
                 case 2:
@@ -49,7 +49,7 @@ public class Main {
                         System.out.println("Autor: " + encontrado.getAutor());
                         System.out.println("ISBN: " + encontrado.getIsbn());
                     } else {
-                        System.out.println("⚠️ Nenhum livro encontrado com esse título.");
+                        System.out.println("Nenhum livro encontrado com esse título.");
                     }
                     break;
 
