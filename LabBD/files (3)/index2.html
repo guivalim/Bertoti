@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew · Catalog</title>
+  <link rel="stylesheet" href="style2.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&family=Azeret+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Background blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Top navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Brew<em>Catalog</em></span>
+    </div>
+    <div class="navbar-center">
+      <button class="tab-btn active" data-view="list" onclick="App.showView('list')">Todos os Cafés</button>
+      <button class="tab-btn" data-view="add" onclick="App.showView('add')">+ Novo</button>
+    </div>
+    <div class="navbar-right">
+      <div class="status-pill" id="statusPill">
+        <span class="status-dot" id="statusDot"></span>
+        <span id="statusLabel">—</span>
+      </div>
+      <div class="api-config">
+        <span class="api-label">API</span>
+        <input class="api-input" id="apiUrl" type="text" value="http://localhost:8080" oninput="App.updateBaseUrl(this.value)" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- Toast -->
+  <div class="toast-stack" id="toastStack"></div>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- ── VIEW LIST ── -->
+    <section class="view active" id="view-list">
+
+      <div class="list-header">
+        <div>
+          <h1 class="page-title">Catálogo <em>de cafés</em></h1>
+          <p class="page-count" id="pageCount">— itens</p>
+        </div>
+        <div class="list-controls">
+          <div class="search-box">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="searchInput" placeholder="Buscar..." oninput="App.filterCoffees(this.value)" />
+          </div>
+          <button class="refresh-btn" onclick="App.loadCoffees()" title="Atualizar">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Table header -->
+      <div class="table-head">
+        <span class="col-num">#</span>
+        <span class="col-name">Nome</span>
+        <span class="col-id">Identificador</span>
+        <span class="col-actions"></span>
+      </div>
+
+      <!-- Rows -->
+      <div class="table-body" id="tableBody"></div>
+
+      <div class="empty-state hidden" id="emptyState">
+        <div class="empty-circle">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <p>Nenhum café encontrado</p>
+      </div>
+
+    </section>
+
+    <!-- ── VIEW ADD ── -->
+    <section class="view" id="view-add">
+      <div class="add-layout">
+
+        <div class="add-left">
+          <h1 class="page-title">Novo<br><em>café</em></h1>
+          <p class="add-desc">Preencha o nome e o café será registrado no catálogo automaticamente com um ID único.</p>
+          <div class="add-deco">☕</div>
+        </div>
+
+        <div class="add-right">
+          <div class="form-block">
+            <label class="form-label">Nome do Café <span class="req">*</span></label>
+            <input type="text" class="form-input" id="addName" placeholder="Ex: Café Serra Gaúcha" />
+            <p class="form-hint">O ID será gerado automaticamente pelo sistema.</p>
+          </div>
+
+          <button class="submit-btn" onclick="App.addCoffee()">
+            <span>Adicionar ao catálogo</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── EDIT MODAL ── -->
+  <div class="overlay hidden" id="editOverlay">
+    <div class="drawer" id="editDrawer">
+      <div class="drawer-header">
+        <span class="drawer-tag">Editar</span>
+        <button class="drawer-close" onclick="App.closeEdit()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <h2 class="drawer-title" id="drawerTitle">—</h2>
+      <div class="drawer-id" id="drawerId"></div>
+
+      <div class="form-block">
+        <label class="form-label">Novo nome</label>
+        <input type="text" class="form-input" id="editName" />
+      </div>
+
+      <div class="drawer-actions">
+        <button class="btn-ghost" onclick="App.closeEdit()">Cancelar</button>
+        <button class="btn-save" onclick="App.saveCoffee()">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── DELETE MODAL ── -->
+  <div class="overlay hidden" id="deleteOverlay">
+    <div class="confirm-box">
+      <div class="confirm-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/></svg>
+      </div>
+      <h3 class="confirm-title">Remover café?</h3>
+      <p class="confirm-msg">Você está prestes a remover <strong id="confirmName"></strong>. Esta ação não pode ser desfeita.</p>
+      <div class="confirm-actions">
+        <button class="btn-ghost" onclick="App.closeDelete()">Cancelar</button>
+        <button class="btn-delete" onclick="App.confirmDelete()">Remover</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app2.js"></script>
+</body>
+</html>
