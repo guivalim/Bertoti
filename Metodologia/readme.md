@@ -3,3 +3,7 @@ Estudante de Banco de Dados na Fatec São José dos Campos e Técnico em Desenvo
 Meu interesse por tecnologia começou durante o curso técnico, onde tive o primeiro contato com lógica de programação e bancos de dados.
 Busco minha primeira oportunidade na área de TI para aplicar meus conhecimentos em desenvolvimento de software e banco de dados, contribuindo com dedicação, aprendizado contínuo e vontade de evoluir profissionalmente.
 Tenho familiaridade com programação orientada ao objeto(POO), gosto de desenvolver projetos em Java. Além disso, possuo conhecimentos em linguagens SQL.
+
+<h1 style="text-align: center"> Contatos</h1>
+<a href="https: github.com/guivalim" target="_blank"><img src="" alt="GitHub"></a>
+<a href="https: linkedin.com/in/guids" target="_blank"><img src="" alt="Linkedin"></a>
