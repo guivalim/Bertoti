@@ -24,14 +24,17 @@ Tenho familiaridade com programação orientada ao objeto(POO), gosto de desenvo
 
 <h1 style="text-align: center"> Meus Projetos</h1>
 <h3>Em 2025 - 2º Semestre</h3>
+<img width="900" height="200" alt="image" src="https://github.com/user-attachments/assets/aa2bc7d3-2cbb-4135-b3a8-09102e80917b" />
+
 <h3>Empresa Parceira: IPEM- SJC</h3>
+
 <h3>Problema:</h3> Atualmente, o controle de abastecimento das viaturas da Regional de São José dos Campos é realizado de forma manual. Os condutores registram as informações — como quilometragem, quantidade de combustível, valor abastecido e identificação do condutor — em pranchetas físicas mantidas dentro de cada veículo. Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações, conferi-las individualmente e consolidar os dados para controle interno e posterior inserção no sistema SGI. Esse fluxo manual compromete a eficiência da gestão, tornando difícil realizar análises comparativas entre as viaturas, acompanhar o consumo médio de combustível ou identificar rapidamente possíveis inconsistências nos registros. 
 
 <h3>Solução Proposta:</h3>Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
 <br>
 
 <h3>Repositório do Projeto: </h3>
-<a href="https://github.com/SquadTech-API/API-3" target="_blank"><img width="96" height="28" alt="image" src="https://github.com/user-attachments/assets/c587610b-2e96-45f4-9550-8c3b9bc74ca5" alt="GitHub"></a>
+<a href="https://github.com/SquadTech-API/API-3" target="_blank"><img width="96" height="28" alt="image" src="https://github.com/user-attachments/assets/c587610b-2e96-45f4-9550-8c3b9bc74ca5" alt="GitHub"></a>          
 
 
 
