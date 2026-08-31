@@ -45,6 +45,34 @@ Tenho familiaridade com programação orientada ao objeto(POO), gosto de desenvo
 > - **HTML, CSS, JAVASCRIPT**: Tecnologias essenciais para a construção da interface web, garantindo interatividade e boa usabilidade.
 > - **Git e GitHub**: Ferramentas fundamentais para o controle de versão, rastreamento de alterações e colaboração eficiente entre a equipe.
 
+<H3>Contribuições Pessoais</H3>
+
+<details>
+  <summary>Desenvolvimento da Interface</summary><br>
+    Desenvolvi protótipos das telas para criação delas posteriormente.
+    <img width="2000" height="1084" alt="image" src="https://github.com/user-attachments/assets/8f842e12-d425-40d8-9b70-7e0824830182" />
+</details>
+
+<details>
+  <summary>Criação de telas</summary><br>
+    Criação de tela de relatórios para o usuário
+  <img width="1920" height="922" alt="relatorio-viatura" src="https://github.com/user-attachments/assets/d07f9d26-c715-41c9-bcf3-d6dd54aba8a5" />
+</details>
+
+<h3>Hard Skills</h3>
+
+- **HTML** : Sei fazer com autonomia
+- **CSS** : Sei fazer com autonomia
+- **FIGMA** : Sei fazer com autonomia
+
+<h3>Soft Skills</h3>
+
+- **Orientação para o cliente**: Empenhei-me em compreender as preferências e expectativas estéticas do usuário ou cliente final para refletir isso diretamente nas telas.
+- **Flexibilidade**: Demonstrei abertura para aceitar feedbacks e alterar rotas durante o processo de criação, ajustando os elementos visuais conforme as novas demandas..
+- **Criatividade**: Apliquei soluções criativas no design e na estruturação das telas, buscando inovar na disposição dos elementos visuais para tornar a interface mais original, atraente e alinhada à identidade desejada.
+
+
+
 
 
 
