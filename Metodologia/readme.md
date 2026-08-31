@@ -34,8 +34,16 @@ Tenho familiaridade com programação orientada ao objeto(POO), gosto de desenvo
 <br>
 
 <h3>Repositório do Projeto: </h3>
-<a href="https://github.com/SquadTech-API/API-3" target="_blank"><img width="96" height="28" alt="image" src="https://github.com/user-attachments/assets/c587610b-2e96-45f4-9550-8c3b9bc74ca5" alt="GitHub"></a>          
+<a href="https://github.com/SquadTech-API/API-3" target="_blank"><img width="96" height="28" alt="image" src="https://github.com/user-attachments/assets/c587610b-2e96-45f4-9550-8c3b9bc74ca5" alt="GitHub"></a>
+<br>
 
+#### Tecnologias Utilizadas
+> - **JAVA**: Linguagem principal do backend, garantindo robustez, segurança e escalabilidade para a lógica do sistema.
+> - **SPRINGBOOT**: Framework utilizado para agilizar o desenvolvimento do backend, simplificando a configuração de componentes e a criação de APIs REST.
+> - **INTELLIJ**: Ambiente de desenvolvimento integrado (IDE) utilizado para codificação, depuração e organização do projeto.
+> - **Figma**: Utilizado para o design de interface (UI) e prototipagem, auxiliando no planejamento da experiência do usuário (UX).
+> - **HTML, CSS, JAVASCRIPT**: Tecnologias essenciais para a construção da interface web, garantindo interatividade e boa usabilidade.
+> - **Git e GitHub**: Ferramentas fundamentais para o controle de versão, rastreamento de alterações e colaboração eficiente entre a equipe.
 
 
 
