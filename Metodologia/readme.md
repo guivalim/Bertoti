@@ -1,4 +1,9 @@
 <h1 style="text-align: center"> Sobre mim</h1>
+<br>
+<p align="center">
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/066c4d03-7905-4de0-a5f3-89c019a332eb" />
+</p>
+<br>
 Estudante de Banco de Dados na Fatec São José dos Campos e Técnico em Desenvolvimento de Sistemas pela ETEC Machado de Assis.
 Meu interesse por tecnologia começou durante o curso técnico, onde tive o primeiro contato com lógica de programação e bancos de dados.
 Busco minha primeira oportunidade na área de TI para aplicar meus conhecimentos em desenvolvimento de software e banco de dados, contribuindo com dedicação, aprendizado contínuo e vontade de evoluir profissionalmente.
